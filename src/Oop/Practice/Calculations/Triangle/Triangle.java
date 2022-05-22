@@ -1,4 +1,4 @@
-package Triangle.Calculations;
+package Oop.Practice.Calculations.Triangle;
 
 public class Triangle {
 
@@ -49,24 +49,5 @@ public class Triangle {
 
     }
 
-    public static void main(String[] args) {
-        Triangle tri = new Triangle();
-        Triangle shape = new Triangle(8,6,7);
 
-        System.out.println("1.Area of triangle : " +tri.area());
-        System.out.println("1.Perimeter of triangle : " +tri.perimeter());
-
-        System.out.println("2.Area of triangle : " +shape.area());
-        System.out.println("2.Perimeter of triangle : " +shape.perimeter());
-
-        tri.setHeight(10);
-        tri.setLength(17);
-        tri.setWidth(5);
-
-        System.out.println("3.Area of triangle : " +tri.area());
-        System.out.println("3.Perimeter of triangle : " +tri.perimeter());
-
-
-
-    }
 }
